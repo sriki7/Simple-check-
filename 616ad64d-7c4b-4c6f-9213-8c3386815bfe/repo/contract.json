@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "final": "Comparing recent code changes to previous versions requires access to version control history. Please provide the repository URL or specify the commit hashes for comparison.",
+  "repo_actions": {
+    "patch": null,
+    "files": [],
+    "commands": [],
+    "validate_commands": [],
+    "commit_message": null
+  },
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "applied": false,
+  "diff_summary": "clean",
+  "checks": [],
+  "artifacts": [],
+  "rolled_back": false,
+  "block_reason": null,
+  "error": null,
+  "commit": null,
+  "push": null,
+  "touched_files": [],
+  "repo_root": "/Users/sriki/Desktop/Operon/Backend1/agent_workspace/projects/de4019f0-dda2-48d0-938b-a179f15c67d0/runs/47ba68f3-afb0-488f-bf14-fcab2b7994ca/repo"
+}

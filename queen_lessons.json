@@ -1,0 +1,40 @@
+{
+  "de4019f0-dda2-48d0-938b-a179f15c67d0": [
+    {
+      "summary": "Ran mission d0d7b119-1aae-4670-a977-e09d619ca728 -> status=completed",
+      "ts": "2026-02-09T10:25:53.445295+00:00"
+    },
+    {
+      "summary": "Run failed: PendingRollbackError('This Session\\'s transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (builtins.TypeError) Object of type UUID is not JSON serializable\\n[SQL: UPDATE mission_runs SET meta=$1::JSONB, updated_at=$2::TIMESTAMP WITH TIME ZONE WHERE mission_runs.uuid = $3::UUID]\\n[parameters: [{\\'meta\\': {\\'mode\\': \\'live\\', \\'repo\\': {\\'sync\\': {\\'ok\\': True, \\'code\\': 0, \\'action\\': \\'clone\\', \\'output\\': \"Cloning into \\'/Users/sriki/Desktop/Operon/Backend1/ag ... (3959 characters truncated) ... 37, 45, 436637), \\'updated_at\\': datetime.datetime(2026, 2, 9, 11, 37, 45, 436648)}}, \\'mission_runs_uuid\\': UUID(\\'563789d4-858a-4324-819b-4f4ebaaec0d0\\')}]]')",
+      "ts": "2026-02-09T11:37:45.469779+00:00"
+    },
+    {
+      "summary": "Ran mission e1ea3270-a80e-40fd-bc1c-de1d224fdbfe -> status=failed",
+      "ts": "2026-02-09T16:00:31.463929+00:00"
+    },
+    {
+      "summary": "Ran mission ce61e3e0-7d7f-496a-8d1b-035cbe4ced8a -> status=failed",
+      "ts": "2026-02-09T16:33:14.746494+00:00"
+    },
+    {
+      "summary": "Ran mission ce61e3e0-7d7f-496a-8d1b-035cbe4ced8a -> status=failed",
+      "ts": "2026-02-09T16:33:49.310914+00:00"
+    },
+    {
+      "summary": "Ran mission ce61e3e0-7d7f-496a-8d1b-035cbe4ced8a -> status=failed",
+      "ts": "2026-02-09T16:33:54.940217+00:00"
+    },
+    {
+      "summary": "Ran mission b8c25a37-51a6-486a-86d5-c3776eca067a -> status=failed",
+      "ts": "2026-02-10T00:38:12.048317+00:00"
+    },
+    {
+      "summary": "Ran mission b8c25a37-51a6-486a-86d5-c3776eca067a -> status=failed",
+      "ts": "2026-02-10T01:00:26.717164+00:00"
+    },
+    {
+      "summary": "Ran mission 1b5858fa-259c-4ae6-ba62-30cd69410df3 -> status=failed",
+      "ts": "2026-02-10T01:19:03.191281+00:00"
+    }
+  ]
+}

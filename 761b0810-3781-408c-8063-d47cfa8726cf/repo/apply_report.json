@@ -1,0 +1,30 @@
+{
+  "applied": true,
+  "diff_summary": "clean",
+  "checks": [
+    {
+      "name": "policy",
+      "command": "validate_blocked",
+      "exit_code": 0,
+      "duration_ms": 0,
+      "stdout": "",
+      "stderr": "{\"check\": \"validate_blocked\", \"blocked\": [\"python -m pytest -q\"]}"
+    }
+  ],
+  "artifacts": [
+    "frontend",
+    "backend",
+    "data-storage"
+  ],
+  "rolled_back": false,
+  "block_reason": null,
+  "error": null,
+  "commit": null,
+  "push": null,
+  "touched_files": [
+    "frontend",
+    "backend",
+    "data-storage"
+  ],
+  "repo_root": "/Users/sriki/Desktop/Operon/Backend1/agent_workspace/projects/de4019f0-dda2-48d0-938b-a179f15c67d0/runs/47ba68f3-afb0-488f-bf14-fcab2b7994ca/repo"
+}

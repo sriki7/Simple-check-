@@ -1,0 +1,4 @@
+{
+  "query": "Select relevant indicators for the app (e.g. RSI, MACD)",
+  "sources": []
+}

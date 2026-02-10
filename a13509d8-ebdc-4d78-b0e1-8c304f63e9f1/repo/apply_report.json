@@ -1,0 +1,30 @@
+{
+  "applied": true,
+  "diff_summary": "clean",
+  "checks": [
+    {
+      "name": "policy",
+      "command": "validate_blocked",
+      "exit_code": 0,
+      "duration_ms": 0,
+      "stdout": "",
+      "stderr": "{\"check\": \"validate_blocked\", \"blocked\": [\"python -m pytest -q\"]}"
+    }
+  ],
+  "artifacts": [
+    "tests/trading_app_test.py",
+    "tests/trading_app_test_data.json",
+    "tests/trading_app_test_results.txt"
+  ],
+  "rolled_back": false,
+  "block_reason": null,
+  "error": null,
+  "commit": null,
+  "push": null,
+  "touched_files": [
+    "tests/trading_app_test.py",
+    "tests/trading_app_test_data.json",
+    "tests/trading_app_test_results.txt"
+  ],
+  "repo_root": "/Users/sriki/Desktop/Operon/Backend1/agent_workspace/projects/de4019f0-dda2-48d0-938b-a179f15c67d0/runs/744e1c20-acb0-422e-ab9c-f5c0aa823495/repo"
+}

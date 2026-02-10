@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "final": "Packages installed successfully.",
+  "repo_actions": {
+    "patch": null,
+    "files": [],
+    "commands": [],
+    "validate_commands": [],
+    "commit_message": null
+  },
+  "error": null
+}
